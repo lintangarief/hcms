@@ -1048,7 +1048,7 @@ button.btn {
      float: right;
 }
  #navigation>ul>li>a {
-    padding: 18px 27px;
+    padding: 18px 25px;
     text-transform: uppercase;
     font-size: 14px;
     font-weight: normal;
@@ -1670,7 +1670,7 @@ button.btn {
   margin: 0;
 }
 .banner-about{
-  background: url(../images/home/about.png) no-repeat;
+  background: url(../images/home/about.jpg) no-repeat;
   background-size: cover;
   margin: 0px;
   padding: 0px;
@@ -1776,6 +1776,90 @@ button.btn {
   border: solid 1px #8cc63d;
 }
 
+/*--------------------------- affiliation page --------------------*/
+#affiliation{
+  margin: 0;
+}
+.banner-affiliation{
+  background: url(../images/home/affiliation.jpg) no-repeat;
+  background-size: cover;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  height: calc(100vh - 150px);
+}
+.banner-affiliation .text-group{
+  position: relative;
+  top: 250px;
+}
+.affiliation-content .box-description{
+  float: none;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: PTSans;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.64;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: #6e726e;
+}
+.affiliation-content .title-content{
+  color: #8cc63d;
+  font-family: PTSans;
+  font-size: 40px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-align: center;
+}
+.affiliation-content .section-proposition{
+  background-color: #8cc63d;
+}
+.affiliation-content .section-proposition .section-title{
+  margin-bottom: 0px;
+}
+.affiliation-content .section-proposition .title-content{
+  color: white;
+  padding: 50px;
+}
+ .affiliation-image-title {
+   display: block;
+   font-family: PTSans;
+   font-size: 18px;
+   font-weight: bold;
+   font-style: normal;
+   font-stretch: normal;
+   line-height: 1.14;
+   letter-spacing: normal;
+   text-align: left;
+   color: white;
+}
+.affiliation-content .box-content-table{
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+}
+.affiliation-content .box-content-table div{
+  padding: 15px;
+  border-radius: 5px;
+  border: solid 1px #8cc63d;
+}
+
+.affiliation-content .img-affiliation{
+  height: 224px;
+}
+.affiliation-content  .title-img-affiliation{
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 2.5;
+  border-bottom: 1px solid #8cc63d;
+}
+
 /*------------------------- 9.1 Menu ---------------------------*/
  .menu-block {
      margin-bottom: 30px;
@@ -1838,7 +1922,7 @@ button.btn {
 }
 .trend-content {
   padding: 20px 0px;
-  background: url(../images/home/trends.png) no-repeat left top;
+  background: url(../images/home/trends.jpg) no-repeat left top;
   background-size: cover;
   display: table;
   width: 100%;
@@ -1974,7 +2058,7 @@ button.btn {
 }
 .workforce-content {
   padding: 20px 0px;
-  background: url(../images/home/workforce.png) no-repeat left top;
+  background: url(../images/home/workforce.jpg) no-repeat left top;
   background-size: cover;
   display: table;
   width: 100%;
@@ -1992,7 +2076,7 @@ button.btn {
 }
 .affiliations-content {
   padding: 20px 0px;
-  background: url(../images/home/affiliation.png) no-repeat left top;
+  background: url(../images/home/affiliation.jpg) no-repeat left top;
   background-size: cover;
   display: table;
   width: 100%;
@@ -2912,4 +2996,30 @@ button.btn {
         padding-left: 10px;
          margin-top: 10px;
     }
+}
+
+/*------------------------ font section ----------------------*/
+.font-s-12{
+ font-size: 14px;
+}
+
+.font-s-14{
+ font-size: 14px;
+}
+
+.font-s-16{
+ font-size: 16px;
+}
+
+.font-s-18{
+ font-size: 18px;
+}
+
+.font-s-20{
+ font-size: 20px;
+}
+
+.content-center{
+  float: none;
+  margin: 0 auto;
 }
