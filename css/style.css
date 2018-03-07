@@ -678,6 +678,10 @@ button.btn {
      margin-bottom: 40px;
      text-align: center;
 }
+.section-title-what-new{
+  text-align: center;
+  margin: 50px;
+}
  .title {
      color: #333333;
 }
@@ -1675,7 +1679,7 @@ button.btn {
   margin: 0;
 }
 .banner-about{
-  background: url(../images/home/about.jpg) no-repeat;
+  background: url(../images/home/about.png) no-repeat;
   background-size: cover;
   margin: 0px;
   padding: 0px;
@@ -2089,6 +2093,27 @@ button.btn {
 .affiliation-group-text{
   height: 650px;
   padding-top: 150px;
+}
+/*------------------------- METHODOLOGY ---------------------------*/
+ .methodology-section {
+     margin-top: 0px;
+}
+ .methodology-block {
+     position: relative;
+}
+.methodology-content {
+  padding: 20px 0px;
+  background:white;
+  background-size: cover;
+  display: table;
+  width: 100%;
+}
+.methodology-group-text{
+  height: 650px;
+  padding-top: 150px;
+}
+.img-responsive-methodology{
+  float: right;
 }
 /*------------------------- 9.2 Service ---------------------------*/
 
