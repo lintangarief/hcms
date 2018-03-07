@@ -415,7 +415,7 @@ label {
 button.btn {
      margin-right: -1px;
 }
-.btn-signin{
+.btn-green{
   border-radius: 5px;
   background: #8cc63d;
   padding: 5px 20px;
@@ -648,6 +648,11 @@ button.btn {
  .content {
      padding-top: 80px;
      padding-bottom: 80px;
+}
+.content-40pd {
+  background: #fafafa;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .bg-light {
@@ -2313,34 +2318,10 @@ button.btn {
      margin-bottom: 30px;
 }
  .post-content {
-     margin-bottom: 30px;
-}
-/*----- meta -----*/
- .meta {
-     margin-bottom: 24px;
-     padding-right: 3px;
-     font-weight: 700;
-     line-height: 1;
-     text-transform: uppercase;
-     font-size: 12px;
-     letter-spacing: 1px;
-}
- .meta-icon {
-}
- .meta-categories {
-     color: #8b9691;
-}
- .meta-admin, .meta-comments {
-     margin-left: 8px;
-     margin-right: 8px;
-}
- .meta-admin, .meta-comments, .meta-date {
-     color: #8b9691;
-     padding-bottom: 14px;
-     padding-top: 14px;
-}
- .meta-date, .meta-author {
-     margin-right: 10px;
+    margin-bottom: 30px;
+    background: white;
+    padding: 20px;
+    text-align: justify;
 }
 /*----- pagination -----*/
  .pagination {
@@ -2348,62 +2329,8 @@ button.btn {
      padding-left: 0;
      margin: 20px 0;
 }
- .st-pagination {
-     margin-top: 30px;
-}
- .st-pagination .pagination>li>a, .pagination>li>span {
-     position: relative;
-     float: left;
-     line-height: 2;
-     color: #fff;
-     text-decoration: none;
-     letter-spacing: 2.5px;
-     font-size: 12px;
-     border-radius: 0px;
-     border: 1px solid #121413;
-     background-color: #121413;
-     font-weight: 700;
-     text-transform: uppercase;
-     margin-right: 8px;
-     margin-bottom: 5px;
-}
- .st-pagination .pagination>li>a:focus, .st-pagination .pagination>li>a:hover, .st-pagination .pagination>li>span:focus, .st-pagination .pagination>li>span:hover {
-     z-index: 2;
-     color: #fff;
-     background-color: #1aa644;
-     border: #1aa644 1px solid;
-}
- .st-pagination .pagination>li:first-child>a, .st-pagination .pagination>li:first-child>span {
-     margin-left: 0;
-     border-radius: 0px;
-}
- .st-pagination .pagination>li:last-child>a, .st-pagination .pagination>li:last-child>span {
-     border-radius: 0px;
-}
- .st-pagination .pagination>.active>a, .st-pagination .pagination>.active>a:focus, .st-pagination .pagination>.active>a:hover, .st-pagination .pagination>.active>span, .st-pagination .pagination>.active>span:focus, .st-pagination .pagination>.active>span:hover {
-     z-index: 3;
-     color: #fff;
-     cursor: default;
-     background-color: #1aa644;
-     border: 1px solid #1aa644;
-}
- .related-post-block {
-     margin-bottom: 30px;
-     border-bottom: 1px solid #e0e6e3;
-}
- .related-post-block .meta {
-     text-align: left;
-}
- .related-post-title {
-     margin-top: 30px;
-}
- .related-post {
-}
- .related-img img {
-     margin-bottom: 30px;
-}
- .related-post-content {
-     margin-bottom: 35px;
+.post-img-title{
+  width: 100%;
 }
 /*------post-gallery----*/
  .post-gallery {
@@ -2628,8 +2555,10 @@ button.btn {
  .widget {
      margin-bottom: 40px;
      border-radius: 0px;
-     border: 1px solid #e0e6e3;
+     background: white;
+     margin: 30px;
      padding: 30px;
+     margin-top: 0;
 }
  .widget-title {
      color: #121312;
