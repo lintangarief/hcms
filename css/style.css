@@ -58,18 +58,17 @@ Author: HCM Plan
  body {
      -webkit-font-smoothing: antialiased;
      text-rendering: optimizeLegibility;
-     font-family: 'Lato', sans-serif;
      letter-spacing: 0px;
-     font-size: 16px;
+     font-size: 14px;
      color: #6e726e;
-     font-weight: 400;
+     font-weight: 500;
      line-height: 27px;
+     font-family: 'Open Sans', sans-serif;
 }
  h1, h2, h3, h4, h5, h6 {
      color: #121312;
      margin: 0px 0px 15px 0px;
      font-weight: 400;
-     font-family: 'Zilla Slab', serif;
 }
  h1 {
      font-size: 38px;
@@ -123,7 +122,6 @@ Author: HCM Plan
      font-size: 22px;
      font-weight: 400;
      line-height: 1.4;
-     font-family: 'Zilla Slab', serif;
      color: #252d3a;
      margin-bottom: 30px;
      font-style: italic;
@@ -139,7 +137,6 @@ Author: HCM Plan
  .blockquote-content {
 }
  .blockquote-text {
-     font-family: 'Zilla Slab', sans-serif;
      color: #fff;
      font-weight: 400;
      font-size: 36px;
@@ -318,7 +315,6 @@ label {
 
 /*----------------------------------- 3. Buttons -----------------------------------*/
  .btn {
-     font-family: 'Lato', sans-serif;
      font-size: 14px;
      text-transform: uppercase;
      font-weight: 700;
@@ -525,6 +521,10 @@ button.btn {
 .margin-0{
   margin: 0px !important;
 }
+.margin-0-auto-center{
+  float: none;
+  margin: 0 auto !important;
+}
 /*----------------------- 4.3 Padding space -------------------------*/
  .nopadding {
      padding: 0px !important;
@@ -669,6 +669,21 @@ button.btn {
  .bg-white {
      background-color: #fff;
 }
+.bg-yellow{
+  background: #f8e71c;
+}
+.bg-red{
+  background: #e00314;
+}
+.border-red{
+  border: 1px solid #e00314;
+}
+.bg-green{
+  background: #4e9300;
+}
+.border-green{
+  border: 1px solid #4e9300;
+}
 .color-green{
   color: #8cc63d;
 }
@@ -723,7 +738,6 @@ button.btn {
   padding:70px 0px 0px 0px;
 }
 .title-whats-new{
-  font-family: PTSans;
   font-size: 40px;
   font-weight: bold;
   font-style: normal;
@@ -736,38 +750,65 @@ button.btn {
 .whats-new-img{
   position: relative;
   opacity: 1;
+  height: 334;
 }
-.whats-new-img img {
-    width: 100%;
+.grid-img{
+  height: 400px;
+}
+.grid-img div{
+  height: 100%;
+  width: 100%;
+
 }
  .what-news-image {
    padding: 220px 30px 20px 30px;
-
    left: 0;
    bottom: 0px;
    position: absolute;
    height: 100%;
    width: 100%;
+   background-size: cover !important;
 }
-.whats-new-img:hover .what-news-image{
-  background: none repeat 0 0 #000;
-  opacity: 0.6;
-  transition: all 1s;
+.what-news-image-1{
+  background: url(../images/home/what-s-new-1.png) no-repeat;
+  height: 100%;
+}
+.what-news-image-1:hover{
   -webkit-transition: all 1s;
+  transition: all 1s;
+  background: url(../images/home/what-s-new-1-black.png) no-repeat;
 }
-.whats-new-img:hover .what-news-image-title, .whats-new-img:hover .mb0, .whats-new-img:hover .text-readmore {
+.what-news-image-2{
+  background: url(../images/home/what-s-new-2.png) no-repeat;
+}
+.what-news-image-2:hover{
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  background: url(../images/home/what-s-new-2-black.png) no-repeat;
+}
+.what-news-image-3{
+  background: url(../images/home/what-s-new-3.png) no-repeat;
+}
+.what-news-image-3:hover{
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  background: url(../images/home/what-s-new-3-black.png) no-repeat;
+}
+.what-news-image:hover .what-news-descriptions{
   display: block;
 
 }
-.whats-new-img .what-news-image-title, .whats-new-img .mb0, .whats-new-img .text-readmore {
+.what-news-image .what-news-descriptions{
   display: none;
 }
-.whats-new-img .mb0{
+.what-news-descriptions{
+  padding-top: 30px;
+}
+.what-news-image .mb0{
   color: white
 }
  .what-news-image-title {
    display: block;
-   font-family: PTSans;
    font-size: 18px;
    font-weight: bold;
    font-style: normal;
@@ -776,6 +817,10 @@ button.btn {
    letter-spacing: normal;
    text-align: left;
    color: #8cc63d;
+}
+.button-more{
+  position: relative;
+  right: 50px;
 }
 .text-more{
     padding: 50px 0px;
@@ -802,8 +847,7 @@ button.btn {
  .angle, .arrow {
      position: relative;
 }
- .arrow-right li:before {
-     font-family: "FontAwesome";
+ .arrow-right li:before {;
      display: inline-block;
      position: absolute;
      left: 0;
@@ -975,15 +1019,18 @@ button.btn {
  .logo {
      text-align: center;
 }
+.logo img {
+  height: 60px;
+}
  .top-bar {
      background-color: #fff;
      padding-top: 20px;
-     padding-bottom: 20px;
+     padding-bottom: 5px;
 }
  .support-bar {
      position: relative;
      margin-bottom: 0px;
-     margin-top: 4px;
+     margin-top: 16px;
 }
  .support-icon {
      font-size: 24px;
@@ -1035,7 +1082,6 @@ button.btn {
      display: none;
 }
  #navigation {
-     font-family: 'Zilla Slab', serif;
      -webkit-font-smoothing: antialiased;
      text-rendering: optimizeLegibility;
 }
@@ -1072,7 +1118,7 @@ button.btn {
  #navigation>ul>li:hover>a {
      color: #8cc63d;
      padding: 17.5px 27px;
-     border-bottom: 1px solid #8cc63d;
+     border-bottom: 5px solid #8cc63d;
      font-weight:500;
 }
  #navigation>ul>li.has-sub>a {
@@ -1408,7 +1454,6 @@ button.btn {
 }
 /*------------------------------------ Contact us -----------------------------------*/
 .contact-us{
-  font-family: PTSans;
   font-size: 40px;
   font-weight: bold;
   font-style: normal;
@@ -1418,6 +1463,11 @@ button.btn {
   text-align: center;
   letter-spacing: normal;
   text-align: center
+}
+.contact-us input {
+  color: #9B9B9B;
+}
+.label-contact-us{
 }
 /*----------------------------------- 6. Slider -------------------------------------*/
  .slider {
@@ -1440,7 +1490,6 @@ button.btn {
      border-radius: 2px;
 }
  .slider-title {
-   font-family: PTSans;
    font-size: 40px;
    font-weight: bold;
    font-style: normal;
@@ -1527,6 +1576,325 @@ button.btn {
 }
  .slider i {
      font-size: 50px;
+}
+/*---------------------------------- crausel ---------------------------------------*/
+
+
+#first-slider .main-container {
+  padding: 0;
+}
+
+
+#first-slider .slide1 h3, #first-slider .slide2 h3, #first-slider .slide3 h3, #first-slider .slide4 h3{
+    color: #fff;
+    font-size: 30px;
+      text-transform: uppercase;
+      font-weight:700;
+}
+
+#first-slider .slide1 h4,#first-slider .slide2 h4,#first-slider .slide3 h4,#first-slider .slide4 h4{
+    color: #fff;
+    font-size: 30px;
+      text-transform: uppercase;
+      font-weight:700;
+}
+#first-slider .slide1 .text-left ,#first-slider .slide3 .text-left{
+    padding-left: 40px;
+}
+
+
+#first-slider .carousel-indicators {
+  bottom: 0;
+}
+#first-slider .carousel-control.right,
+#first-slider .carousel-control.left {
+  background-image: none;
+}
+#first-slider .carousel .item {
+  min-height: 355px;
+  height: 100%;
+  width:100%;
+}
+
+.carousel-inner .item .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+
+#first-slider h3{
+  animation-delay: 1s;
+}
+#first-slider h4 {
+  animation-delay: 2s;
+}
+#first-slider h2 {
+  animation-delay: 3s;
+}
+
+
+#first-slider .carousel-control {
+    width: 6%;
+        text-shadow: none;
+}
+
+
+#first-slider h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#first-slider .p {
+  padding-top: 125px;
+  text-align: center;
+}
+
+#first-slider .p a {
+  text-decoration: underline;
+}
+#first-slider .carousel-indicators li {
+    width: 14px;
+    height: 14px;
+    background-color: rgba(255,255,255,.4);
+  border:none;
+}
+#first-slider .carousel-indicators .active{
+    width: 16px;
+    height: 16px;
+    background-color: #fff;
+  border:none;
+}
+
+
+.carousel-fade .carousel-inner .item {
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+}
+.carousel-fade .carousel-inner .item,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  opacity: 0;
+}
+.carousel-fade .carousel-inner .active,
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1;
+}
+.carousel-fade .carousel-inner .next,
+.carousel-fade .carousel-inner .prev,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  left: 0;
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+}
+.carousel-fade .carousel-control {
+  z-index: 2;
+}
+
+.carousel-control .fa-angle-right, .carousel-control .fa-angle-left {
+    position: absolute;
+    top: 50%;
+    z-index: 5;
+    display: inline-block;
+}
+.carousel-control .fa-angle-left{
+    left: 50%;
+    width: 38px;
+    height: 38px;
+    margin-top: -15px;
+    font-size: 30px;
+    color: #fff;
+    -webkit-border-radius: 23px;
+    -moz-border-radius: 23px;
+    border-radius: 53px;
+}
+.carousel-control .fa-angle-right{
+    right: 50%;
+    width: 38px;
+    height: 38px;
+    margin-top: -15px;
+    font-size: 30px;
+    color: #fff;
+    -webkit-border-radius: 23px;
+    -moz-border-radius: 23px;
+    border-radius: 53px;
+}
+.carousel-control {
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+
+/********************************/
+/*       Slides backgrounds     */
+/********************************/
+#first-slider .slide1, #first-slider .slide2, #first-slider .slide3, #first-slider .slide4 {
+  background: #8cc63d;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/*------------------------------------ table focus ----------------------------------*/
+.box-title-table{
+    padding: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+}
+.description-table-white{
+    padding: 20px;
+    background: white;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.57;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+}
+.clickable{
+    cursor: pointer;
+}
+
+.panel-heading span {
+	margin-top: -20px;
+	font-size: 15px;
+}
+.focus-colapse .panel-group .panel{
+  background: transparent !important;
+  border: none !important;
+}
+.panel-description{
+  border-radius: 5px;
+  border: solid 1px #ffffff;
+  color: text-white;
+  padding: 40px 60px 60px 60px;
+}
+.panel-text-title{
+  font-size: 50px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.1;
+  letter-spacing: 2px;
+  text-align: center;
+  color: #ffffff;
+}
+.panel-text-description{
+  margin: 0;
+  padding: 15px 0;
+}
+.panel-progress-white li{
+  float: left;
+  width: calc(50% - 2.5px);
+  font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.57;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: #e00314;
+  border-radius: 5px;
+}
+.panel-progress-white li:last-child{
+  margin-left: 5px;
+}
+.panel-responsible{
+  display: table;
+  width: 100%;
+  padding-bottom: 50px;
+}
+.panel-progress-white-quarter{
+  display: table;
+  width: 100%;
+  margin-bottom: 5px;
+}
+.panel-progress-white-quarter li{
+  float: left;
+  width: calc(25% - 2.5px);
+  font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.57;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: #e00314;
+  margin-left: 3px;
+
+}
+.list-quarter{
+  width: 100%;
+  display: flex;
+}
+.list-quarter li{
+  width: 33%;
+  text-align: center;
+  border-right: 1px solid black;
+  display: flex;
+  border-radius: 0;
+}
+.list-quarter li:nth-child(2){
+  width: 33%;
+  text-align: center;
+  border-right: 1px solid black;
+  display: flex;
+}
+.panel-progress-white-quarter li:first-child{
+  margin-left: 0px;
+}
+.panel-progress-transparent-percent li{
+  float: left;
+  width: calc(27%);
+  border: none;
+  font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.57;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: #e00314;
+}
+.panel-progress-transparent-percent li:last-child span{
+  background: none;
+  color: #f8e71c;
+}
+.panel-progress-transparent li{
+  float: left;
+  width: calc(50% - 2.5px);
+  font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.57;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: white;
+  border-radius: 5px;
+}
+.panel-progress-transparent li:last-child{
+  margin-left: 5px;
+}
+.glyphicon-30px{
+  font-size: 30px;
+  font-weight: 100;
 }
 /*----------------------------------- 7. Footer -------------------------------------*/
  .footer {
@@ -1665,6 +2033,7 @@ button.btn {
 }
 .ft-social{
   float: right;
+  padding-bottom: 15px;
 }
 /*--- easetemplate copyright link --*/
  .copyrightlink {
@@ -1694,7 +2063,6 @@ button.btn {
   float: none;
   margin: 0 auto;
   padding: 20px;
-  font-family: PTSans;
   font-size: 14px;
   font-weight: normal;
   font-style: normal;
@@ -1706,7 +2074,6 @@ button.btn {
 }
 .about-content .title-content{
   color: #8cc63d;
-  font-family: PTSans;
   font-size: 40px;
   font-weight: bold;
   font-style: normal;
@@ -1737,15 +2104,6 @@ button.btn {
 .whats-new-img img {
     width: 100%;
 }
- .what-news-image {
-   padding: 220px 30px 20px 30px;
-
-   left: 0;
-   bottom: 0px;
-   position: absolute;
-   height: 100%;
-   width: 100%;
-}
 .whats-new-img:hover .what-news-image{
   background: none repeat 0 0 #000;
   opacity: 0.6;
@@ -1764,7 +2122,6 @@ button.btn {
 }
  .about-image-title {
    display: block;
-   font-family: PTSans;
    font-size: 18px;
    font-weight: bold;
    font-style: normal;
@@ -1805,7 +2162,6 @@ button.btn {
   float: none;
   margin: 0 auto;
   padding: 20px;
-  font-family: PTSans;
   font-size: 14px;
   font-weight: normal;
   font-style: normal;
@@ -1817,7 +2173,6 @@ button.btn {
 }
 .affiliation-content .title-content{
   color: #8cc63d;
-  font-family: PTSans;
   font-size: 40px;
   font-weight: bold;
   font-style: normal;
@@ -1838,7 +2193,6 @@ button.btn {
 }
  .affiliation-image-title {
    display: block;
-   font-family: PTSans;
    font-size: 18px;
    font-weight: bold;
    font-style: normal;
@@ -1909,7 +2263,6 @@ button.btn {
      font-size: 26px;
      color: #e03c23;
      font-weight: 500;
-     font-family: 'Zilla Slab', serif;
 }
  .well-block .dish-meta {
      width: 100%;
@@ -1918,13 +2271,12 @@ button.btn {
      font-size: 26px;
      color: #e03c23;
      font-weight: 500;
-     font-family: 'Zilla Slab', serif;
      position: inherit;
 }
 
 /*------------------------- trends and challenge ---------------------------*/
 .trend-section {
-     margin-top: 0px;
+     margin-top: -10px;
 }
  .trend-block {
      position: relative;
@@ -1947,7 +2299,7 @@ button.btn {
 }
 .focus-content{
   text-align: center;
-  padding-bottom: 30px;
+  padding-bottom: 60px;
 }
 .col-half-offset{
   margin-left:4.166666667%;
@@ -1960,7 +2312,7 @@ button.btn {
   width: 100%;
 }
 
-.focus-section li {
+.focus-section.visible-lg.visible-md li {
     float: left;
     width: 20%;
 }
@@ -1971,7 +2323,7 @@ button.btn {
 .box-focus{
   margin: 0 auto;
 }
-.focus-block-red, .focus-block-black, .focus-block-green, .focus-block-grey, .focus-block-orange{
+.focus-section.visible-lg.visible-md .focus-block-red, .focus-section.visible-lg.visible-md .focus-block-black, .focus-section.visible-lg.visible-md .focus-block-green, .focus-section.visible-lg.visible-md .focus-block-grey, .focus-section.visible-lg.visible-md .focus-block-orange{
   border-left:1px solid grey;
   border-right: :1px solid grey;
 }
@@ -2052,7 +2404,7 @@ button.btn {
 .focus-title{
   font-size: 144px;
   line-height: normal;
-  font-family: PTSans;
+  font-family: 'Cantata One', serif;
 }
 .focus-group-text{
   height: 650px;
@@ -2092,7 +2444,7 @@ button.btn {
 }
 .affiliation-group-text{
   height: 650px;
-  padding-top: 150px;
+  padding-top: 240px;
 }
 /*------------------------- METHODOLOGY ---------------------------*/
  .methodology-section {
@@ -2110,10 +2462,11 @@ button.btn {
 }
 .methodology-group-text{
   height: 650px;
-  padding-top: 150px;
+  padding-top: 240px;
 }
 .img-responsive-methodology{
   float: right;
+  height: 650px;
 }
 /*------------------------- 9.2 Service ---------------------------*/
 
@@ -2512,7 +2865,6 @@ button.btn {
      font-size: 12px;
      color: #121413;
      margin-bottom: 10px;
-     font-family: 'Zilla Slab', serif;
      margin-left: 5px;
 }
 /*----- Comments -----*/
@@ -2693,7 +3045,6 @@ button.btn {
      margin-bottom: 30px;
 }
  .key-features-title {
-    font-family: 'Zilla Slab', serif;
      font-size: 16px;
      font-weight: 500;
      text-transform: uppercase;
@@ -2976,4 +3327,45 @@ button.btn {
 .content-center{
   float: none;
   margin: 0 auto;
+}
+/*-------------------------- responsive homepage ----------------------------*/
+@media only screen and (max-width: 745px) {
+  .navbar-brand.logo img{
+    height: 40px;
+  }
+  .navbar-header{
+    padding-bottom: 15px;
+    border-bottom: 2px solid #8cc63d;
+  }
+  .navbar-header button{
+    margin-bottom: 0px;
+  }
+  .container-fluid.visible-xs.visible-sm.header-navigation{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: white;
+    z-index: 100;
+  }
+  .span-hamburger{
+    color: #8cc63d;
+    font-size: 18px;
+  }
+  .banner-homepage{
+    padding-top: 60px;
+    height: 100vh;
+    max-height: 812px;
+    background: url('../images/home/banner-mobile.jpg') no-repeat;
+    background-size: cover;
+  }
+  .navbar-collapse.collapse.in{
+    height: calc(100vh - 72px);
+  }
+  .navbar-collapse.collapse.in .nav.navbar-nav{
+    height: calc(100vh - 92px);
+  }
+  .methodology-content{
+    background: url('../images/home/methodology.gif')
+  }
+
 }
