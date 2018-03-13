@@ -1743,7 +1743,14 @@ button.btn {
   background-repeat: no-repeat;
 }
 
-/*------------------------------------ table focus ----------------------------------*/
+/*------------------------------------ focus page ----------------------------------*/
+div#baner-focus{
+  position: absolute;
+  bottom: 350px;
+  color: #f1f1f1;
+  border: none;
+  width: 100%;
+}
 .box-title-table{
     padding: 20px;
     font-size: 14px;
@@ -1896,6 +1903,60 @@ button.btn {
   font-size: 30px;
   font-weight: 100;
 }
+.border-right-white{
+    border-right: 1px solid #fff;
+}
+.border-right-red{
+    border-right: 1px solid #e00314;
+}
+.table-collapse th{
+    vertical-align: middle;
+}
+.table-collapse td{
+    vertical-align: top;
+}
+.table-collapse td ul{
+  font-size: 13px;
+  list-style-type: disc;
+  padding-left: 20px;
+}
+.table-collapse .title-table-collapse{
+  line-height: 3;
+}
+
+.btn-collapse{
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.btn-red-collapse{
+  background-color: #e00314;
+  color: white;
+}
+.title-description-collapse{
+  font-size: 20px;
+  line-height: 2;
+  color: black;
+  position: relative;
+  top: 4px;
+  padding-left: 10px;
+  font-weight: 900;
+}
+
+.box-collapse-description {
+  padding: 20px;
+}
+.border-radius-top-5 {
+  border-radius: 5px 0px;
+}
+.border-radius-bottom-5{
+  border-radius: 0px 5px;
+}
+ul.ul-disc{
+  list-style-type: disc;
+}
+
+
+
 /*----------------------------------- 7. Footer -------------------------------------*/
  .footer {
      background-color: #8cc63d;
