@@ -672,6 +672,12 @@ button.btn {
 .bg-yellow{
   background: #f8e71c;
 }
+.bg-orange{
+  background: #ef6501;
+}
+.border-orange{
+  border: 1px solid #ef6501;
+}
 .bg-red{
   background: #e00314;
 }
@@ -1909,6 +1915,15 @@ div#baner-focus{
 .border-right-red{
     border-right: 1px solid #e00314;
 }
+.border-right-green{
+    border-right: 1px solid #4e9300;
+}
+.border-right-orange{
+    border-right: 1px solid #ef6501;
+}
+.border-right-black{
+    border-right: 1px solid black;
+}
 .table-collapse th{
     vertical-align: middle;
 }
@@ -1930,6 +1945,14 @@ div#baner-focus{
 }
 .btn-red-collapse{
   background-color: #e00314;
+  color: white;
+}
+.btn-green-collapse{
+  background-color: #4e9300;
+  color: white;
+}
+.btn-orange-collapse{
+  background-color: #ef6501;
   color: white;
 }
 .title-description-collapse{
@@ -1954,8 +1977,58 @@ div#baner-focus{
 ul.ul-disc{
   list-style-type: disc;
 }
+.enchancement-img{
+  position: relative;
+  top: 16px;
+  margin: 0 auto;
+}
+.priority-img{
+  position: relative;
+  top: 27px;
+  margin: 0 auto;
+}
+.text-what-ideas{
+  margin-bottom: 40px;
+}
 
+.btn-yes{
+  padding: 10px 50px;
+  border-radius: 5px;
+  background-color: #e00314;
+  color: white;
+}
+.btn-no{
+  padding: 10px 50px;
+  border-radius: 5px;
+  background-color: #c6c6c6;
+}
+.join-experiment{
+  font-size: 20px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 3;
+  letter-spacing: 1.3px;
+  text-align: left;
+  color: #000000;
+  margin-right: 30px;
+}
 
+.link-collapse-up:hover{
+  color: #ccc;
+}
+.link-collapse{
+  color: white;
+}
+.link-collapse:hover{
+  color: #ccc;
+}
+.box-potential{
+  display: table;
+}
+.box-potential{
+  width: 100%;
+}
 
 /*----------------------------------- 7. Footer -------------------------------------*/
  .footer {
@@ -3428,5 +3501,33 @@ ul.ul-disc{
   .methodology-content{
     background: url('../images/home/methodology.gif')
   }
-
+  .panel-text-title{
+    font-size: 20px;
+  }
+  .panel-description{
+    padding: 20px 10px;
+  }
+  .join-experiment{
+    line-height: 1.2;
+    font-size: 16px;
+  }
+  .btn-yes{
+      margin: 0 auto;
+  }
+  .banner-focus{
+    height: calc(100vh - 72px);
+  }
+  .banner-focus video#myVideo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1000;
+    overflow: hidden;
+  }
 }
