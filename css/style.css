@@ -782,7 +782,7 @@ button.btn {
    background-size: cover !important;
 }
 .about.what-news-image{
-  padding: 300px 30px 20px 30px;
+  padding: 350px 30px 20px 30px;
 }
 .what-news-image-1{
   background: url(../images/home/what-s-new-1.png) no-repeat;
@@ -3518,8 +3518,21 @@ ul.ul-disc{
   .navbar-collapse.collapse.in .nav.navbar-nav{
     height: calc(100vh - 92px);
   }
+  .methodology-section{
+    display: table;
+  }
   .methodology-content{
-    background: url('../images/home/methodology.gif')
+    background: url('../images/home/methodology.gif') no-repeat bottom;
+    background-size: contain;
+    display: table;
+  }
+  .methodology-group-text {
+    height: 533px;
+    padding-top: 40px;
+  }
+  .whats-new {
+    background: #8cc63d;
+    padding: 1px 0px 0px 0px;
   }
   .panel-text-title{
     font-size: 20px;
@@ -3549,5 +3562,8 @@ ul.ul-disc{
     height: auto;
     z-index: -1000;
     overflow: hidden;
+  }
+  .about.what-news-image{
+    padding: 265px 30px 20px 30px;
   }
 }
