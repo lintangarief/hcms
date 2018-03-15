@@ -673,31 +673,40 @@ button.btn {
   background: #f8e71c;
 }
 .bg-orange{
-  background: #ef6501;
+  background: #ef6501 !important;
 }
 .border-orange{
   border: 1px solid #ef6501;
 }
 .bg-red{
-  background: #e00314;
+  background: #e00314 !important;
 }
 .border-red{
   border: 1px solid #e00314;
 }
 .bg-grey{
-  background: #786f6d;
+  background: #786f6d !important;
 }
 .border-grey{
   border: 1px solid #786f6d;
 }
 .bg-green{
-  background: #4e9300;
+  background: #4e9300 !important;
 }
 .border-green{
   border: 1px solid #4e9300;
 }
 .color-green{
   color: #8cc63d;
+}
+.bg-black{
+  background: #2f2a2e !important;
+}
+.border-black{
+  border: 1px solid #2f2a2e;
+}
+.color-black{
+  color: #2f2a2e;
 }
  .outline {
 }
@@ -1868,14 +1877,12 @@ div#baner-focus{
 .list-quarter li{
   width: 33%;
   text-align: center;
-  border-right: 1px solid black;
   display: flex;
   border-radius: 0;
 }
 .list-quarter li:nth-child(2){
   width: 33%;
   text-align: center;
-  border-right: 1px solid black;
   display: flex;
 }
 .panel-progress-white-quarter li:first-child{
@@ -1973,6 +1980,10 @@ div#baner-focus{
 }
 .btn-grey-collapse{
   background: #786f6d;
+  color: white;
+}
+.btn-black-collapse{
+  background: #2f2a2e;
   color: white;
 }
 .title-description-collapse{
