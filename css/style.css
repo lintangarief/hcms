@@ -684,6 +684,12 @@ button.btn {
 .border-red{
   border: 1px solid #e00314;
 }
+.bg-grey{
+  background: #786f6d;
+}
+.border-grey{
+  border: 1px solid #786f6d;
+}
 .bg-green{
   background: #4e9300;
 }
@@ -774,6 +780,9 @@ button.btn {
    height: 100%;
    width: 100%;
    background-size: cover !important;
+}
+.about.what-news-image{
+  padding: 300px 30px 20px 30px;
 }
 .what-news-image-1{
   background: url(../images/home/what-s-new-1.png) no-repeat;
@@ -1752,7 +1761,7 @@ button.btn {
 /*------------------------------------ focus page ----------------------------------*/
 div#baner-focus{
   position: absolute;
-  bottom: 350px;
+  bottom: 250px;
   color: #f1f1f1;
   border: none;
   width: 100%;
@@ -1924,6 +1933,13 @@ div#baner-focus{
 .border-right-black{
     border-right: 1px solid black;
 }
+.border-right-black{
+    border-right: 1px solid #786f6d;
+}
+
+.table-collapse{
+  width: 100%;
+}
 .table-collapse th{
     vertical-align: middle;
 }
@@ -1953,6 +1969,10 @@ div#baner-focus{
 }
 .btn-orange-collapse{
   background-color: #ef6501;
+  color: white;
+}
+.btn-grey-collapse{
+  background: #786f6d;
   color: white;
 }
 .title-description-collapse{
