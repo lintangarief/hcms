@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="36" height="64" viewBox="0 0 36 64">
+    <defs>
+        <path id="a" d="M0 64h36V0H0z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <path fill="#FFF" d="M35 58a5 5 0 0 1-5 5H6a5 5 0 0 1-5-5V6a5 5 0 0 1 5-5h24a5 5 0 0 1 5 5v52z"/>
+        <mask id="b" fill="#fff">
+            <use xlink:href="#a"/>
+        </mask>
+        <path fill="#4D5152" d="M1 8h34V6H1zM1 58h34v-2H1z" mask="url(#b)"/>
+        <path fill="#4D5152" d="M6 2C3.794 2 2 3.794 2 6v52c0 2.206 1.794 4 4 4h24c2.206 0 4-1.794 4-4V6c0-2.206-1.794-4-4-4H6zm24 62H6c-3.309 0-6-2.691-6-6V6c0-3.309 2.691-6 6-6h24c3.309 0 6 2.691 6 6v52c0 3.309-2.691 6-6 6z" mask="url(#b)"/>
+        <path fill="#67DDE0" d="M4 54h28V10H4z" mask="url(#b)"/>
+        <path fill="#ACF0F2" d="M7 17h22v-4H7zM7 23h4v-4H7zM13 23h4v-4h-4zM19 23h4v-4h-4zM25 23h4v-4h-4zM7 29h4v-4H7zM13 29h4v-4h-4zM19 29h4v-4h-4zM25 29h4v-4h-4zM7 35h4v-4H7zM13 35h4v-4h-4zM25 41h4v-4h-4zM7 51h4v-4H7zM13 51h4v-4h-4zM19 51h4v-4h-4zM25 51h4v-4h-4z" mask="url(#b)"/>
+    </g>
+</svg>

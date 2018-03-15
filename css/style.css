@@ -1694,7 +1694,7 @@ button.btn {
     width: 16px;
     height: 16px;
     background-color: #fff;
-  border:none;
+    border:none;
 }
 
 
@@ -1761,12 +1761,58 @@ button.btn {
 /********************************/
 /*       Slides backgrounds     */
 /********************************/
-#first-slider .slide1, #first-slider .slide2, #first-slider .slide3, #first-slider .slide4 {
+#first-slider .slide1, #first-slider .slide2, #first-slider .slide3, #first-slider .slide4, #first-slider .slide5, #first-slider .slide6, #first-slider .slide7, #first-slider .slide8 {
   background: #8cc63d;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
+#first-slider .trends.slide1{
+  background: #3dbdc6;
+}
+#first-slider .trends.slide2{
+  background: #3d86c6;
+}
+#first-slider .trends.slide3{
+  background: #3d5cc6;
+}
+#first-slider .trends.slide4{
+  background: #8c3dc6;
+}
+#first-slider .trends.slide5{
+  background: #c63d7c;
+}
+#first-slider .trends.slide6{
+  background: #c63d3d;
+}
+#first-slider .trends.slide7{
+  background: #c66b3d;
+}
+#first-slider .trends.slide8{
+  background: #c69b3d;
+}
+#first-slider .trends.slide9{
+  background: #78c63d;
+}
+#first-slider .trends.slide10{
+  background: #3dc6a0;
+}
+#first-slider .trends-title{
+  font-size: 40px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.46;
+  letter-spacing: 2.5px;
+  text-align: center;
+  color: #ffffff;
+}
+#first-slider .carousel .item.trends-slider{
+    min-height: 500px;
+}
+#first-slider .trends img{
+  margin-bottom: 40px;
+}
 /*------------------------------------ focus page ----------------------------------*/
 div#baner-focus{
   position: absolute;
@@ -2208,6 +2254,83 @@ ul.ul-disc{
      color: #1aa644;
 }
 /*----------------------------------- 9. Pages -------------------------------------*/
+/*---------------------------------- trends Page ------------------------------------*/
+#trends{
+  margin: 0;
+}
+.trends-content .section-title{
+  margin: 0px;
+}
+.img-fortune{
+  position: relative;
+  width: 100%;
+}
+.fortune-description{
+  position: relative;
+  top: -40px;
+  font-size: 20px !important;
+}
+.banner-trends{
+  background: url(../images/home/trends.jpg) no-repeat;
+  background-size: cover;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  height: calc(100vh - 150px);
+}
+.banner-trends .text-group{
+  position: relative;
+  top: 250px;
+}
+.trends-content .box-description{
+  float: none;
+  margin: 0 auto;
+  padding: 20px;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.64;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: #000000;
+}
+.trends-content .title-content{
+  color: #8cc63d;
+  font-size: 40px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-align: center;
+}
+.trends-content .section-proposition{
+  background-color: #8cc63d;
+}
+.trends-content .section-proposition .section-title{
+  margin-bottom: 0px;
+}
+.trends-content .section-proposition .title-content{
+  color: white;
+  padding: 50px;
+}
+.ul-fortune{
+  display: table;
+  height: 100%;
+  width: 100%;
+  padding: 15px;
+}
+.fortune-li-img{
+  float: left;
+}
+.fortune-li-description{
+  float: left;
+  margin-top: 10px;
+  padding-left: 15px;
+  font-weight: bold;
+  width: 80%;
+}
 /*---------------------------------- About Page ------------------------------------*/
 #about{
   margin: 0;
@@ -3576,5 +3699,8 @@ ul.ul-disc{
   }
   .about.what-news-image{
     padding: 265px 30px 20px 30px;
+  }
+  #first-slider .carousel .item.trends-slider{{
+      min-height: 300px;
   }
 }
