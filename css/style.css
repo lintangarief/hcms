@@ -708,6 +708,9 @@ button.btn {
 .color-black{
   color: #2f2a2e;
 }
+.color-grey2{
+  color: #6e726e !important;
+}
  .outline {
 }
  .section-title {
@@ -865,6 +868,36 @@ button.btn {
   height: 40px;
   border-radius: 5px;
   border: solid 1px #d8d8d8;
+}
+.widget-login{
+  background: url(images/home/sign-in-page.jpg) no-repeat;
+  height: 100vh;
+}
+.box-logo{
+  display: table;
+  position: absolute;
+  top: 38%;
+  padding-right: 55px;
+}
+.img-logo-signin{
+    margin: 0 auto;
+    height: 75px;
+    margin-bottom: 40px;
+}
+.description-sign-in{
+  width: 75%;
+  margin: 0 auto !important;
+  padding-bottom: 30px;
+  line-height: 1.53;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000000;
+  font-size: 15px;
+  font-weight: 500px;
+}
+
+.quote-sign-in{
+  color: black;
 }
 
 /*-------------------------------- 4.6 Bullet/arrow ----------------------------------*/
@@ -1857,7 +1890,6 @@ div#baner-focus{
   border: none !important;
 }
 .panel-description{
-  border-radius: 5px;
   border: solid 1px #ffffff;
   color: text-white;
   padding: 40px 60px 60px 60px;
@@ -1989,6 +2021,9 @@ div#baner-focus{
 .border-right-black{
     border-right: 1px solid #786f6d;
 }
+.border-right-grey{
+  border-right: 1px solid #786f6d;
+}
 
 .table-collapse{
   width: 100%;
@@ -2045,7 +2080,7 @@ div#baner-focus{
 .box-collapse-description {
   padding: 20px;
 }
-.border-radius-top-5 {
+. {
   border-radius: 5px 0px;
 }
 .border-radius-bottom-5{
@@ -2330,6 +2365,9 @@ ul.ul-disc{
   padding-left: 15px;
   font-weight: bold;
   width: 80%;
+}
+.trends-content-orange {
+    background: url(../images/home/trends-orange.png) #ef6501 no-repeat right;
 }
 /*---------------------------------- About Page ------------------------------------*/
 #about{
@@ -3700,7 +3738,54 @@ ul.ul-disc{
   .about.what-news-image{
     padding: 265px 30px 20px 30px;
   }
-  #first-slider .carousel .item.trends-slider{{
+  #first-slider .carousel .item.trends-slider{
       min-height: 300px;
+  }
+  .fortune-li-img, fortune-li-description {
+    float: left;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+  }
+  .li-description-fortune{
+    padding: 0px;
+    text-align: center;
+  }
+  .fortune-li-description {
+    float: left;
+    margin-top: 10px;
+    padding-left: 0px;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+  }
+  #first-slider .trends-title {
+    font-size: 18px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.46;
+    letter-spacing: 2.5px;
+    text-align: center;
+    color: #ffffff;
+  }
+
+  #navbar.navbar-collapse.collapse.in li a, #navbar.navbar-collapse.collapsing li a{
+    line-height: 3 !important;
+    color: #8a8a8a !important;
+    font-weight: 500 !important;
+  }
+  #navbar.navbar-collapse.collapse.in li a:hover, #navbar.navbar-collapse.collapsing li a:hover{
+    background-color: transparent !important;
+    color: #8cc63d !important;
+  }
+  .img-logo-signin{
+    position: relative;
+    top: 50px;
+    height: 75px;
+    margin: 0 auto;
+  }
+  .box-login{
+    padding-top: 50px;
   }
 }

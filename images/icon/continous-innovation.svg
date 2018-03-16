@@ -1,1 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47 (45396) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="TRENDS-PAGE" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Trend-Challenge---Desktop" transform="translate(-88.000000, -2674.000000)" fill="#D92E27">
+            <g id="Group-4" transform="translate(0.000000, 1583.000000)">
+                <g id="Group-2" transform="translate(88.000000, 1091.000000)">
+                    <path d="M23.1519,32.0649 L17.5029,25.2849 C17.1489,24.8609 17.2059,24.2309 17.6309,23.8769 C18.0549,23.5229 18.6839,23.5809 19.0389,24.0049 L23.3889,29.2249 L39.1189,15.7189 C39.5369,15.3579 40.1689,15.4069 40.5289,15.8269 C40.8889,16.2459 40.8409,16.8769 40.4219,17.2369 L23.1519,32.0649 Z" id="Fill-1"></path>
+                    <path d="M14.906,35.145 L34.573,35.145 L34.573,15.478 L14.906,15.478 L14.906,35.145 Z M12.905,37.145 L36.572,37.145 L36.572,13.478 L12.905,13.478 L12.905,37.145 Z" id="Fill-3"></path>
+                    <path d="M24.7388,2 C12.2008,2 1.9998,12.201 1.9998,24.739 C1.9998,37.277 12.2008,47.478 24.7388,47.478 C37.2778,47.478 47.4778,37.277 47.4778,24.739 C47.4778,12.201 37.2778,2 24.7388,2 M24.7388,49.478 C11.0978,49.478 -0.0002,38.38 -0.0002,24.739 C-0.0002,11.098 11.0978,0 24.7388,0 C38.3798,0 49.4778,11.098 49.4778,24.739 C49.4778,38.38 38.3798,49.478 24.7388,49.478" id="Fill-5"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
