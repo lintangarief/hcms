@@ -314,85 +314,7 @@ label {
 }
 
 /*----------------------------------- 3. Buttons -----------------------------------*/
- .btn {
-     font-size: 14px;
-     text-transform: uppercase;
-     font-weight: 700;
-     padding: 10px 20px;
-     margin: 7px;
-     border-radius: 0px;
-     line-height: 1.8;
-     letter-spacing: 2px;
-     border: 1px solid transparent;
-     outline: 6px solid transparent;
-     -webkit-transition: all 0.3s;
-     -moz-transition: all 0.3s;
-     transition: all 0.3s;
-     word-wrap: break-word;
-     white-space: normal !important;
-}
- .btn-primary {
-     background-color: #1aa644;
-     color: #66ee8f;
-     border: 1px solid #29bd55;
-     outline: 6px solid #1aa644;
-}
- .btn-primary:hover {
-     background-color: #148c38;
-     color: #fff;
-     border: 1px solid #29bd55;
-     outline: 6px solid #148c38;
-}
- .btn-primary.focus, .btn-primary:focus {
-     background-color: #148c38;
-     color: #fff;
-     border: 1px solid #29bd55;
-     outline: 6px solid #148c38;
-}
- .btn-default {
-     background-color: #121312;
-     color: #9c9c9c;
-     border: 1px solid #474a48;
-     outline: 6px solid #121312;
-}
- .btn-default:hover {
-     background-color: #000000;
-     color: #fff;
-     border: 1px solid #474a48;
-     outline: 6px solid #0f120f;
-}
- .btn-default.focus, .btn-default:focus {
-     background-color: #000000;
-     color: #fff;
-     border: 1px solid #474a48;
-     outline: 6px solid #0f120f;
-}
- .btn-lg {
-     padding: 12px 28px;
-     font-size: 15px;
-}
- .btn-sm {
-     padding: 8px 14px;
-     font-size: 12px;
-}
- .btn-xs {
-     padding: 8px 12px;
-     font-size: 9px;
-}
- .btn-white {
-     color: #13387c;
-     background: #fff;
-     margin-bottom: -10px;
-}
- .btn-white:hover {
-     background-color: #fff;
-     color: #13387c;
-}
- .btn-white.focus, .btn-white:focus {
-     background-color: #fff;
-     color: #13387c;
-}
- .btn-link {
+.btn-link {
      color: #121312;
      font-size: 14px;
      font-weight: 700;
@@ -407,9 +329,6 @@ label {
      color: #1aa644;
      text-decoration: none;
      border-bottom: 1px solid #1aa644;
-}
-button.btn {
-     margin-right: -1px;
 }
 .btn-green{
   border-radius: 5px;
@@ -862,6 +781,31 @@ button.btn {
   color: #8cc63d;
   font-weight: bold;
 }
+/*-------------------------------- 4.5 dropzone Block ----------------------------------*/
+#dropzone {
+  margin-bottom: 3rem; }
+
+.dropzone {
+  border-radius: 5px;
+  background: white;
+}
+.dropzone .dz-message {
+  font-weight: 600;
+  padding: 150px;
+  text-align: center;
+  background: grey;
+  color: white;
+}
+.dropzone .dz-message .note {
+  font-size: 0.8em;
+  font-weight: 200;
+  display: block;
+  margin-top: 1.4rem;
+}
+.content-form-1, .content-form-2, .content-form-3, .content-form-4, .content-img{
+  margin-bottom: 60px;
+}
+
 /*-------------------------------- 4.5 Contact us Block ----------------------------------*/
  .img-signin {
    height: 100vh;
@@ -1109,7 +1053,7 @@ button.btn {
      line-height: 1.6;
 }
  .header-wrapper {
-     z-index: 9;
+     z-index: 999;
      position: relative;
      background-color: white;
      border-bottom: 3px solid #8cc63d;
@@ -3256,6 +3200,19 @@ img.state-img{
      width: 100%;
      height: 500px;
 }
+/*------------------------ 10. form pages --------------------------*/
+
+.red-label{
+  font-size: 20px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.15;
+  letter-spacing: 0.2px;
+  text-align: left;
+  color: #bc000e;
+  padding-bottom: 15px;
+}
 /*------------------------ 10. Blog pages --------------------------*/
 .list-blogs{
   padding: 30px;
@@ -3926,7 +3883,20 @@ img.state-img{
   .workforce-content-page .state-content .title-content {
     font-size: 18px;
   }
+  .content-img{
+    margin-top: 50px !important;
+  }
+  .dropzone .dz-message {
+    font-weight: 600;
+    padding: 150px 100px;
+    text-align: center;
+    background: grey;
+    color: white;
+  }
 }
 .section-login{
   color: #8cc63d;
+}
+.container-fluid.visible-xs.visible-sm.header-navigation{
+  z-index: 1000;
 }
