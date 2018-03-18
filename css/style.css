@@ -2583,6 +2583,11 @@ ul.ul-disc{
 .keyframe-img{
   height: 262px;
 }
+/*--------------------------- detail affiliation page --------------------*/
+.img-detail-affiliation{
+  height: 225px;
+  margin-bottom: 60px !important;
+}
 /*--------------------------- workforce page --------------------*/
 
 .banner-workforce{
@@ -2728,7 +2733,8 @@ img.state-img{
 }
 
 .affiliation-content .img-affiliation{
-  height: 224px;
+  height: 125px;
+  margin-top: 40px;
 }
 .affiliation-content  .title-img-affiliation{
   font-size: 20px;
