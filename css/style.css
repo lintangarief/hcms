@@ -2472,9 +2472,6 @@ ul.ul-disc{
   border: solid 1px #8cc63d;
 }
 /*--------------------------- methodology page --------------------*/
-#about{
-  margin: 0;
-}
 .banner-methodology{
   background: white;
   background-size: cover;
@@ -2585,6 +2582,79 @@ ul.ul-disc{
 }
 .keyframe-img{
   height: 262px;
+}
+/*--------------------------- workforce page --------------------*/
+
+.banner-workforce{
+  background: url(../images/home/workforce-page.jpg) no-repeat;
+  background-size: cover;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  height: calc(100vh - 150px);
+}
+.banner-workforce .text-group{
+  position: relative;
+  top: 250px;
+}
+.workforce-content-page .title-content{
+  font-size: 20px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 1.3px;
+  text-align: center;
+  margin-bottom: 60px;
+  color: #6e726e;
+}
+.workforce-content-page .title-content.text-white{
+  color: white;
+}
+.img-icon-workforce{
+  float: left;
+  width: 50px;
+  margin-top: 5px;
+  padding-bottom: 20px;
+  margin-left: -70px;
+}
+p.icon-description{
+  font-size: 14px;
+  text-align: justify;
+  display: table;
+  padding-bottom: 30px;
+  padding-left: 70px;
+}
+.workforce-content-page.green{
+  background: #8cc63d;
+}
+div.icon-box{
+  padding: 25px;
+  float: none;
+  background: white;
+  border-radius: 50%;
+  margin: 0 auto;
+  width: 100px;
+}
+.vertical-line{
+  position: absolute;
+  height: 100%;
+  float: none;
+  margin-left: 25px;
+  z-index: 1;
+  top: 60px;
+  border: none;
+  border-left: 1px solid white;
+  width: 1px;
+}
+img.icon-key{
+width: 70px;
+}
+img.state-img{
+  padding-bottom: 50px;
+}
+.workforce-content-page .state-content .title-content{
+  margin-bottom: 40px;
 }
 /*--------------------------- affiliation page --------------------*/
 #affiliation{
@@ -3925,4 +3995,10 @@ ul.ul-disc{
   .methodology-content-page .section-title h2{
     font-size: 22px;
   }
+  .workforce-content-page .state-content .title-content {
+    font-size: 18px;
+  }
+}
+.section-login{
+  color: #8cc63d;
 }
