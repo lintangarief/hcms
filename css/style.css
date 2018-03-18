@@ -2635,6 +2635,19 @@ ul.ul-disc{
 .text-red-detail{
   color: #ef6501 !important;
 }
+.post-img-title-1{
+  height: 463px;
+}
+.post-img-title-2{
+  height: 231px;
+}
+.post-img-title-3{
+  height: 232px;
+}
+.widget-categories {
+    width: 100%;
+    margin-left: 0 !important;
+}
 /*--------------------------- workforce page --------------------*/
 
 .banner-workforce{
@@ -3244,6 +3257,23 @@ img.state-img{
      height: 500px;
 }
 /*------------------------ 10. Blog pages --------------------------*/
+.list-blogs{
+  padding: 30px;
+  padding-top: 0;
+}
+.post-content-blogs {
+  margin-bottom: 30px;
+  background: white;
+  padding: 40px 20px;
+  text-align: justify;
+  display: table;
+}
+.box-post-content{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
 /*----- post-----*/
  .post-holder {
      margin-bottom: 40px;
@@ -3277,163 +3307,6 @@ img.state-img{
 }
 .post-img-title{
   width: 100%;
-}
-/*------post-gallery----*/
- .post-gallery {
-}
- .post-gallery-img {
-     position: relative;
-     width: 100%
-}
- .post-gallery-img img {
-     position: relative;
-     z-index: -1;
-}
- .post-gallery .owl-theme .owl-dots {
-     text-align: center !important;
-     position: relative;
-     bottom: 70px;
-}
- .post-gallery .owl-theme .owl-nav {
-     line-height: 1.8;
-     text-align: center;
-     -webkit-tap-highlight-color: transparent;
-}
- .post-gallery .owl-theme .owl-nav .owl-prev {
-     position: absolute;
-     top: 30%;
-     left: 0px;
-     color: #fff;
-     font-size: 20px;
-     margin: 12px;
-     padding: 0px;
-     background: transparent;
-     display: inline-block;
-     cursor: pointer;
-     border-radius: 2px;
-     height: 0px;
-     width: 0px;
-}
- .post-gallery .owl-theme .owl-nav .owl-next {
-     position: absolute;
-     top: 30%;
-     right: 30px;
-     color: #fff;
-     font-size: 20px;
-     margin: 12px;
-     padding: 0px;
-     background: transparent;
-     display: inline-block;
-     cursor: pointer;
-     border-radius: 2px;
-     height: 0px;
-     width: 0px;
-}
- .post-gallery .owl-theme .owl-nav .owl-prev:hover {
-     background-color: transparent;
-     text-decoration: none;
-     color: #1aa644;
-}
- .post-gallery .owl-theme .owl-nav .owl-next:hover {
-     background-color: transparent;
-     text-decoration: none;
-     color: #1aa644;
-}
- .post-gallery .owl-theme .owl-dots .owl-dot {
-     display: inline-block;
-     zoom: 1;
-}
- .post-gallery .owl-theme .owl-dots .owl-dot span {
-     width: 10px;
-     height: 10px;
-     margin: 4px 3px;
-     background: #fff;
-     border-radius: 0px;
-     border: 2px solid #fff;
-     display: block;
-     -webkit-backface-visibility: visible;
-     transition: opacity 200ms ease;
-}
- .post-gallery .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
-     background-color: #1aa644;
-     border: 2px solid #1aa644;
-}
- .post-gallery .owl-theme .owl-carousel .owl-item img {
-     width: 100%;
-}
- .post-gallery i {
-     font-size: 30px;
-}
- .video-btn {
-     position: absolute;
-     color: #121312;
-     left: 47%;
-     top: 48%;
-     font-size: 60px;
-}
-/*----- prev-next-----*/
- .post-navigation {
-}
- .nav-links {
-     text-decoration: none;
-}
- .nav-previous {
-     border-bottom: 1px solid #e0e6e3;
-     border-top: 1px solid #e0e6e3;
-}
- .prev-link {
-     color: #89908b;
-     font-size: 12px;
-     margin-bottom: 30px;
-     letter-spacing: 2px;
-     text-transform: uppercase;
-     font-weight: 700;
-     border-bottom: 1px solid #89908b;
-     display: inline-block;
-}
- .next-link {
-     color: #89908b;
-     font-size: 12px;
-     margin-bottom: 30px;
-     letter-spacing: 2px;
-     text-transform: uppercase;
-     font-weight: 700;
-     border-bottom: 1px solid #89908b;
-     display: inline-block;
-}
- .nav-next {
-     border-bottom: 1px solid #e0e6e3;
-     border-top: 1px solid #e0e6e3;
-}
- .previous-next-title {
-     margin-bottom: 20px;
-     margin-top: 30px;
-}
-/*----- Author-post -----*/
- .author-block {
-}
- .author-post {
-     text-align: center;
-}
- .author-img img {
-     text-align: center;
-     margin-bottom: 10px;
-}
- .author-header {
-}
- .author-title {
-}
- .author-content {
-}
- .author-text {
-}
- .author-meta {
-     text-transform: uppercase;
-     font-weight: 700;
-     font-size: 12px;
-     color: #121413;
-     margin-bottom: 10px;
-     margin-left: 5px;
 }
 /*----- Comments -----*/
  .comment-area {
