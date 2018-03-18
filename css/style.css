@@ -2583,10 +2583,57 @@ ul.ul-disc{
 .keyframe-img{
   height: 262px;
 }
-/*--------------------------- detail affiliation page --------------------*/
+/*--------------------------- detail template page --------------------*/
 .img-detail-affiliation{
   height: 225px;
   margin-bottom: 60px !important;
+}
+.priority-details{
+  float: right;
+}
+.title-content-detail span{
+  font-size: 40px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 2.5px;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.7);
+  margin-bottom: 20px;
+}
+.title-content-detail{
+  margin-bottom: 20px;
+}
+.subtitle-content-detail span{
+  font-size: 20px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.15;
+  letter-spacing: 0.2px;
+  text-align: left;
+  color: #bc000e;
+  margin-bottom: 20px;
+}
+.text-red-detail {
+  font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.5px;
+  text-align: left;
+  color: #bc000e !important;
+}
+.text-green-detail{
+  color: #4e9300 !important;
+}
+.text-black-detail{
+  color: #786f6d !important;
+}
+.text-red-detail{
+  color: #ef6501 !important;
 }
 /*--------------------------- workforce page --------------------*/
 
@@ -3220,6 +3267,7 @@ img.state-img{
     background: white;
     padding: 20px;
     text-align: justify;
+    display: table;
 }
 /*----- pagination -----*/
  .pagination {
@@ -3456,6 +3504,7 @@ img.state-img{
      margin: 30px;
      padding: 30px;
      margin-top: 0;
+     display: table;
 }
  .widget-title {
      color: #121312;
