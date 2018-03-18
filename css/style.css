@@ -616,8 +616,14 @@ button.btn {
  .pdl40 {
      padding-left: 40px;
 }
+.pdl50 {
+    padding-left: 50px;
+}
  .pdl60 {
      padding-left: 60px;
+}
+.pdl70 {
+    padding-left: 70px;
 }
  .pdl80 {
      padding-left: 80px;
@@ -2421,8 +2427,6 @@ ul.ul-disc{
 .grid-content{
   padding: 0px;
 }
-
-
 .whats-new-img{
   position: relative;
   opacity: 1;
@@ -2467,7 +2471,121 @@ ul.ul-disc{
   border-radius: 5px;
   border: solid 1px #8cc63d;
 }
-
+/*--------------------------- methodology page --------------------*/
+#about{
+  margin: 0;
+}
+.banner-methodology{
+  background: white;
+  background-size: cover;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  height: calc(100vh - 150px);
+}
+.slide-methodology{
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  height: calc(100vh - 150px);
+}
+.slide-methodology-1{
+  background: url(../images/home/methodology1.jpg) no-repeat;
+  background-size: cover;
+}
+.slide-methodology-2{
+  background: url(../images/home/methodology2.jpg) no-repeat;
+  background-size: cover;
+}
+.slide-methodology-3{
+  background: url(../images/home/methodology3.jpg) no-repeat;
+  background-size: cover;
+}
+.banner-methodology .text-group{
+  position: relative;
+}
+.methodology-content-page{
+  background: url(../images/home/road.svg) no-repeat left;
+  background-size: 60px;
+}
+.circle-number{
+  background: url(../images/home/circle-big.svg) no-repeat center;
+  float: left;
+  padding: 3%;
+  background-size: contain;
+  position: relative;
+  left: -60px;
+}
+.circle-text{
+  color: white;
+  font-size: 40px;
+  position: relative;
+  top: 5px;
+}
+.methodology-content-page .section-title-number{
+  position: relative;
+  top: -70px;
+}
+.methodology-content-page .section-title{
+  margin: 0px
+}
+.methodology-content-page .section-title-number h3{
+  font-size: 30px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 1.2px;
+  text-align: left;
+  color: #8cc63d;
+}
+.methodology-content-page .section-title-number .box{
+  padding: 25px 25px;
+}
+.methodology-content-page .section-title h2{
+  font-size: 40px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 1.6px;
+  text-align: left;
+  color: #8cc63d;
+}
+.methodology-content-page .section-last{
+  padding-bottom: 18px;
+}
+.methodology-content-page .section-title h3{
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.8px;
+  text-align: left;
+  color: #000000;
+}
+.methodology-content-page .title-box{
+  font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  margin: 15px;
+}
+.list-style-circle{
+  padding-left: 20px;
+    list-style: circle;
+}
+.list-style-stripe{
+  padding-left: 40px;
+}
+.keyframe-img{
+  height: 262px;
+}
 /*--------------------------- affiliation page --------------------*/
 #affiliation{
   margin: 0;
@@ -3787,5 +3905,24 @@ ul.ul-disc{
   }
   .box-login{
     padding-top: 50px;
+  }
+  .methodology-content-page {
+      padding-right: 0px;
+      padding-left: 0px;
+      background-size: 61px;
+  }
+  .circle-number {
+    background: url(../images/home/circle-big.svg) no-repeat center;
+    float: left;
+    padding: 10%;
+    background-size: contain;
+    position: relative;
+    left: -43px;
+  }
+  .methodology-content-page .section-title-number h3{
+    font-size: 18px;
+  }
+  .methodology-content-page .section-title h2{
+    font-size: 22px;
   }
 }
