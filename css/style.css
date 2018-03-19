@@ -1871,6 +1871,15 @@ div#baner-focus{
   background: transparent !important;
   border: none !important;
 }
+.link-program{
+  margin-top: 30px;
+  font-size: 14px;
+  font-weight: 400;
+}
+a.link-program:hover{
+  font-weight: 600;
+  color: white;
+}
 .panel-description{
   border: solid 1px #ffffff;
   color: text-white;
@@ -3949,4 +3958,7 @@ img.state-img{
 }
 .container-fluid.visible-xs.visible-sm.header-navigation{
   z-index: 1000;
+}
+.text-transform-uppercase{
+  text-transform: uppercase;
 }
