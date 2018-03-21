@@ -1123,6 +1123,10 @@ label {
      -webkit-font-smoothing: antialiased;
      text-rendering: optimizeLegibility;
 }
+.navigation {
+    display: table !important;
+    margin: 0 auto;
+}
  #navigation>ul>li {
      float: left;
 }
@@ -1141,7 +1145,7 @@ label {
      float: right;
 }
  #navigation>ul>li>a {
-    padding: 18px 25px;
+    padding: 18px 22px;
     text-transform: uppercase;
     font-size: 14px;
     font-weight: normal;
@@ -1151,13 +1155,16 @@ label {
     letter-spacing: 0.5px;
     text-align: left;
     color: #000000;
-
 }
+
  #navigation>ul>li:hover>a {
      color: #8cc63d;
      padding: 17.5px 27px;
      border-bottom: 5px solid #8cc63d;
      font-weight:500;
+}
+#navigation>ul>li:hover>a.sticky{
+  padding: 17.5px;
 }
  #navigation>ul>li.has-sub>a {
      padding-right: 67px;
@@ -3504,7 +3511,7 @@ img.state-img{
 }
  @media only screen and (max-width:1200px) {
      #navigation>ul>li>a {
-         padding: 22px 24px;
+         padding: 16px;
     }
      .slider-captions {
          bottom: 70px;
@@ -3764,7 +3771,7 @@ img.state-img{
   margin: 0 auto;
 }
 /*-------------------------- responsive homepage ----------------------------*/
-@media only screen and (max-width: 745px) {
+@media only screen and (max-width: 767px) {
   .navbar-brand.logo img{
     height: 40px;
   }
@@ -3872,7 +3879,7 @@ img.state-img{
     font-weight: bold;
     font-style: normal;
     font-stretch: normal;
-    line-height: 0.46;
+    line-height: 1;
     letter-spacing: 2.5px;
     text-align: center;
     color: #ffffff;
@@ -3952,6 +3959,20 @@ img.state-img{
     width: 100%;
     object-fit: none;
   }
+  #first-slider .slide1 h3, #first-slider .slide2 h3, #first-slider .slide3 h3, #first-slider .slide4 h3, #first-slider .slide5 h3{
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight:700;
+  }
+
+  #first-slider .slide1 h4,#first-slider .slide2 h4,#first-slider .slide3 h4,#first-slider .slide4 h4{
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight:700;
+    margin-bottom: 25px;
+  }
 }
 .section-login{
   color: #8cc63d;
@@ -3961,4 +3982,7 @@ img.state-img{
 }
 .text-transform-uppercase{
   text-transform: uppercase;
+}
+#navigation ul li#li-home{
+  display: none;
 }
