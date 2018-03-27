@@ -167,13 +167,18 @@ video#myVideo{
   min-height: 100%;
   height: 800px;
   object-fit: fill;
+  position: relative;
+}
+div.banner-homepage{
+  /* margin-top: -148px; */
 }
 div#banner-hcm{
   position: absolute;
-  bottom: 330px;
+  top: 430px;
   color: #f1f1f1;
   border: none;
   width: 100%;
+  z-index: 5;
 }
 
 /*----------------------- 2 Form Elements: -------------------------*/
@@ -1838,10 +1843,11 @@ label {
 /*------------------------------------ focus page ----------------------------------*/
 div#baner-focus{
   position: absolute;
-  bottom: 330px;
+  top: 430px;
   color: #f1f1f1;
   border: none;
   width: 100%;
+  z-index: 5;
 }
 .box-title-table{
     padding: 20px;
